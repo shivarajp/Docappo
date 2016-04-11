@@ -1,0 +1,172 @@
+{
+	"patientDetails": [{
+			"name": "Nagaraj M W",
+			"id": "1",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-0-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"Hepatitis",
+				"Diabetes"
+			],
+			"doctor": "Dr.Jay",
+			"specialty ": "ENT Specialist"
+		},
+
+		{
+			"name": "Rishav",
+			"id": "2",
+			"diagnosis": "Back pain",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-1-1",
+			"comments": "Back pain at workplace is usually occurs due to poor ergonomics. Keep following pointts in mind: Maintain correct posture, Do not sit continuously for more than 45 minutes,Drink a lot of water",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Tarun",
+			"specialty ": "Bone & Joint Sepcialists"
+		},
+
+		{
+			"name": "Thilak Alva",
+			"id": "3",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-1-0",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Vikram C",
+			"specialty ": "Psychiatrist"
+		},
+
+		{
+			"name": "Farooque",
+			"id": "4",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "0-0-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Nivya",
+			"specialty ": "Gastroenterologist"
+		},
+
+		{
+			"name": "Nitesh Mishra",
+			"id": "5",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-1-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Divya",
+			"specialty ": "Ayurveda"
+		},
+
+		{
+			"name": "Elavarasan B",
+			"id": "6",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "0-0-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Ekta",
+			"specialty ": "Homeopath"
+		},
+
+		{
+			"name": "Anjali",
+			"id": "7",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-0-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr. Shankar Kumar",
+			"specialty ": "General Physician"
+		},
+
+		{
+			"name": "Abhijit",
+			"id": "8",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-1-0",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Uday A Murgod",
+			"specialty ": "Neurologist"
+		},
+
+		{
+			"name": "Rajan Vohra",
+			"id": "9",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "0-1-0",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr. K S Bhat",
+			"specialty ": "Cardiologist"
+		},
+
+		{
+			"name": "Ravinder",
+			"id": "10",
+			"diagnosis": "Chronic Fatigue Syndrome",
+			"symptoms": "Fever, Dizziness",
+			"medication": "Acetaminophen(20 Tablets)",
+			"toBeTaken": "1-1-1",
+			"comments": "People with CFS sleep poorly and awake unrefreshed. They have frequent headaches, muscle and joint pain, recurring sore throats and memory problems. The intensity and type of symptoms can vary from day to day and from person to person. Patient should take medication reqularly",
+			"knownDeseases": [
+				"Asthma",
+				"BP",
+				"Diabetes"
+			],
+			"doctor": "Dr.Smitha",
+			"specialty ": "Dentist"
+		}
+	]
+}
