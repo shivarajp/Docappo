@@ -92,9 +92,10 @@ public class AppointmentRequestAdapter extends RecyclerView.Adapter<AppointmentR
                         mPatients.get(position).setStatus(1);
                         snappyDb.put(String.format(AppConstants.PATIENTS_KEY, mPatients.get(position).getId()), mPatients.get(position));
                         mPatients.remove(position);
-                        EventBus.getDefault().post(new UpdateEvent("notifyAdapter"));
                         Snackbar.make(v, "Appointment Accepted", Snackbar.LENGTH_LONG)
                                 .setAction("Action", null).show();
+                        EventBus.getDefault().post(new UpdateEvent("notifyAdapter"));
+
                     } catch (SnappydbException e) {
                         e.printStackTrace();
                     }

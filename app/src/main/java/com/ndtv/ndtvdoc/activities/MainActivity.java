@@ -25,6 +25,7 @@ import android.view.ViewGroup;
 import com.google.gson.Gson;
 import com.ndtv.ndtvdoc.R;
 import com.ndtv.ndtvdoc.adapters.HomePagerAdapter;
+import com.ndtv.ndtvdoc.events.UpdateEvent;
 import com.ndtv.ndtvdoc.models.Patient;
 import com.ndtv.ndtvdoc.models.PatientDetailObjectModel;
 import com.ndtv.ndtvdoc.models.PatientDetails;
@@ -34,6 +35,8 @@ import com.ndtv.ndtvdoc.utils.NDTVSharedPreferencesManager;
 import com.snappydb.DB;
 import com.snappydb.DBFactory;
 import com.snappydb.SnappydbException;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -125,6 +128,7 @@ public class MainActivity extends AppCompatActivity
                                     e.printStackTrace();
                                 }
                                 viewPager.getAdapter().notifyDataSetChanged();
+                                EventBus.getDefault().post(new UpdateEvent("update"));
                                 Snackbar.make(view, "All Appointmets Postponed : " + numberPicker.getValue() + " Hrs", Snackbar.LENGTH_LONG).show();
                             }
                         })

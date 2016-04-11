@@ -48,11 +48,15 @@ public class AppointmentRequestFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        rvAppointentRequests = (RecyclerView) view.findViewById(R.id.rvAppointentRequests);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
+        rvAppointentRequests.setLayoutManager(mLayoutManager);
+        rvAppointentRequests.setItemAnimator(new DefaultItemAnimator());
+        loadData();
+    }
+
+    private void loadData() {
         try {
-            rvAppointentRequests = (RecyclerView) view.findViewById(R.id.rvAppointentRequests);
-            RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
-            rvAppointentRequests.setLayoutManager(mLayoutManager);
-            rvAppointentRequests.setItemAnimator(new DefaultItemAnimator());
 
             snaapyDb = DBFactory.open(getActivity());
             ArrayList<String> ids = snaapyDb.get("patientIds", ArrayList.class);
@@ -77,19 +81,21 @@ public class AppointmentRequestFragment extends Fragment {
         } catch (SnappydbException e) {
             e.printStackTrace();
         }
+
     }
 
 
     @Subscribe
-    public void notifyAdapterNow(UpdateEvent event){
-        adapter.notifyDataSetChanged();
+    public void notifyAdapterNow(UpdateEvent event) {
+        patients.clear();
+        loadData();
     }
 
     @Override
     public void onStart() {
         super.onStart();
         EventBus.getDefault().register(this);
-        if(adapter!=null){
+        if (adapter != null) {
             adapter.notifyDataSetChanged();
         }
     }
